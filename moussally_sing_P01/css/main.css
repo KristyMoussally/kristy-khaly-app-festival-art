@@ -34,6 +34,11 @@
 # STYLES GÉNÉRAUX
 -------------------------------------------------------------------------------------*/
 
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 h1,
 .h1 {
   font-family: var(--bershire);
