@@ -18,7 +18,7 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+      <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
         <div class="container-fluid">
           <div class="row justify-content-between">
             <div class="col-1">
@@ -38,7 +38,6 @@
                 ><img src="../assets/artworks/logo_mickey.png" class="logo" />
                 Immersive Disney Animations</a
               >
-
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -70,10 +69,35 @@
 
     <main>
       <div class="container">
-        <section>
-          <form><input type="text" placeholder="" /></form>
+        <section class="sec1">
+          <div class="row justify-content-start">
+
+            <div class="searchbar">
+              <form>
+                <div class="col-10 col-lg-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputPassword"
+                  placeholder="🔎︎ Rechercher une disponibilité..."
+                />
+              </div>
+              </form>
+            </div>
+        </div>
         </section>
-        <section></section>
+        <section>
+          <div class="row btnmenu"><div class="row justify-content-center btnmenu">
+            <ul>
+              <i class="bi-alarm"></i>
+              <li class="nav-link" ><button type="button" href="#" class="btn btn-secondary">Toutes</button></li>
+              <li class="nav-link"><button type="button" href="#" class="btn btn-secondary">Classiques</button></li>
+              <li class="nav-link"><button type="button" href="#" class="btn btn-secondary">Récentes</button></li>
+              <li class="nav-link"><button type="button" href="#" class="btn btn-secondary">Bande sonore</button></li>
+              <li class="nav-link"><button type="button" href="#" class="btn btn-secondary">Département artistique</button></li>
+            </ul>
+          </div>
+        </section>
       </div>
     </main>
 
@@ -81,8 +105,10 @@
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-12 col-sm-9 p-3">
-            Projet fictif réalisé dans le cadre du cours Opiminisation Web
-            582-424MO. UI de l’app crée par Kristy Moussally.
+            <p>
+              Projet fictif réalisé dans le cadre du cours Opiminisation Web
+              582-424MO. UI de l’app crée par Kristy Moussally.
+            </p>
           </div>
 
           <div class="col-6 col-sm-2">

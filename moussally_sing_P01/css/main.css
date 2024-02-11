@@ -11,6 +11,11 @@
   font-family: "Berkshire Swash";
 }
 
+@font-face {
+  src: url(/assets/fonts/Montserrat-Regular.ttf) format(truetype);
+  font-family: "Montserrat";
+}
+
 /*-------------------------------------------------------------------------------------
 # PALETTE DE COULEURS
 -------------------------------------------------------------------------------------*/
@@ -29,6 +34,7 @@
 :root {
   --merriweather: "Merriweather";
   --bershire: "Berkshire Swash";
+  --montserrat: "Montserrat";
 }
 /*-------------------------------------------------------------------------------------
 # STYLES GÉNÉRAUX
