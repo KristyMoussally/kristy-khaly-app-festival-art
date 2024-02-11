@@ -69,12 +69,10 @@
 
     <main>
       <div class="container">
-        <section class="sec1">
-          <div class="row justify-content-start">
-
-            <div class="searchbar">
-              <form>
-                <div class="col-10 col-lg-6">
+        <div class="row">
+          <div class="searchbar">
+            <form>
+              <div class="col-10 col-lg-6">
                 <input
                   type="text"
                   class="form-control"
@@ -82,22 +80,25 @@
                   placeholder="🔎︎ Rechercher une disponibilité..."
                 />
               </div>
-              </form>
-            </div>
+            </form>
+          </div>
         </div>
-        </section>
-        <section>
-          <div class="row btnmenu"><div class="row justify-content-center btnmenu">
+
+        <div class="row justify-content-end btnmenu">
+          <div class="col">
             <ul>
-              <i class="bi-alarm"></i>
-              <li class="nav-link" ><button type="button" href="#" class="btn btn-secondary">Toutes</button></li>
-              <li class="nav-link"><button type="button" href="#" class="btn btn-secondary">Classiques</button></li>
-              <li class="nav-link"><button type="button" href="#" class="btn btn-secondary">Récentes</button></li>
-              <li class="nav-link"><button type="button" href="#" class="btn btn-secondary">Bande sonore</button></li>
-              <li class="nav-link"><button type="button" href="#" class="btn btn-secondary">Département artistique</button></li>
+              <li type="button" href="#" class="btn btn-primary">Toutes</li>
+              <li type="button" href="#" class="btn btn-primary">Classiques</li>
+              <li type="button" href="#" class="btn btn-primary">Récentes</li>
+              <li type="button" href="#" class="btn btn-primary">
+                Bande sonore
+              </li>
+              <li type="button" href="#" class="btn btn-primary">
+                Département artistique
+              </li>
             </ul>
           </div>
-        </section>
+        </div>
       </div>
     </main>
 
