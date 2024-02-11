@@ -18,10 +18,10 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-dark navbar-expand-lg">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-4">
+      <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <div class="row justify-content-between">
+            <div class="col-1">
               <button
                 class="navbar-toggler"
                 data-bs-toggle="collapse"
@@ -33,17 +33,49 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
             </div>
-            <div class="col col-lg-12">
-              <a class="navbar-brand" href="index.html"
-                >Immersive Disney Animations</a
+            <div class="col-10 col-sm-10 col-md-10 col-lg-12">
+              <a class="navbar-brand h2" href="index.html"
+                ><img src="../assets/artworks/logo_mickey.png" class="logo" />
+                Immersive Disney Animations</a
               >
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-person-circle profile"
+                viewBox="0 0 16 16"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                />
+              </svg>
+
+              <div id="mainNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                  <a href="#" class="nav-link">À propos</a>
+                  <a href="#" class="nav-link">Les Artistes</a>
+                  <a href="#" class="nav-link">Oeuvres</a>
+                  <a href="#" class="nav-link">Calendrier</a>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </nav>
     </header>
+
     <main></main>
-    <footer></footer>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">Test</div>
+        </div>
+      </div>
+    </footer>
   </body>
 
   <script
