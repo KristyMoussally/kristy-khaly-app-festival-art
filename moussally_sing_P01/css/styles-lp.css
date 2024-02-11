@@ -23,6 +23,7 @@
   --bleupale: #b4c5e4;
   --blanc: #f1f1ff;
   --gris: #d9d9d9;
+  --noir: black; 
 }
 /*-------------------------------------------------------------------------------------
 # FONTS
@@ -70,7 +71,7 @@ h4,
 .h4 {
   font-family: var(--merriweather);
   font-size: 25px;
-  color: var(--blanc);
+  color: var(--noir);
 }
 
 h5,
@@ -95,6 +96,17 @@ h6,
 .navbar {
   background-color: var(--bleu);
 }
+
+.navbar-brand {
+  font-family: var(--bershire);
+}
+
+.logo_immersive { 
+  max-width: 10%;
+  height: auto; 
+  margin-right: 3%;
+}
+
 
 
 /*-------------------------------------------------------------------------------------
