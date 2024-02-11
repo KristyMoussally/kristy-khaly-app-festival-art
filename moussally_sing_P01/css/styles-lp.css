@@ -102,14 +102,41 @@ h6,
 }
 
 .logo_immersive { 
-  max-width: 10%;
+  width: 10%;
   height: auto; 
-  margin-right: 3%;
+  margin-right: 1%;
 }
 
 
 
 /*-------------------------------------------------------------------------------------
-# SECTION HÉRO
+<nav id="navbar-scroll" class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="row">
+              <div id="mainNav" class="collapse navbar-collapse">
+              <img class="logo_immersive col-lg-1"src="./assets/lighthouseImmersive_logo.png"/>
+              <a class="navbar-brand col-lg-1" href="index.html">IMMERSIVE <br />Disney Animation</a>
+                    <ul class="navbar-nav">
+                      <li class="navbar-item">
+                        <a href="#scrollspyApp" class="nav-link">L'APPLICATION</a>
+                      </li>
+                      <li class="navbar-item">
+                        <a href="#scrollspyFonc" class="nav-link">FONCTIONALITÉS</a>
+                      </li>
+                      <li class="navbar-item">
+                        <a href="#scrollspyPlus" class="nav-link">EN VOIR PLUS</a>
+                      </li>
+                      <li class="navbar-item">
+                        <a href="#scrollspyTem" class="nav-link">TÉMOIGNAGES</a>
+                      </li>
+                      <li class="navbar-item">
+                        <a href="#scrollspyInfo" class="nav-link">INFOLETTRE</a>
+                      </li>
+                    </ul>
+                </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 -------------------------------------------------------------------------------------*/
 
