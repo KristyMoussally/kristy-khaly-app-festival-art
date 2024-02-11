@@ -3,12 +3,12 @@
 -------------------------------------------------------------------------------------*/
 
 @font-face {
-    src: url("/assets/fonts/BerkshireSwash-Regular.ttf") format("truetype");
+    src: url("/moussally_sing_P01/assets/fonts/Merriweather-Regular.ttf") format("truetype");
     font-family: "Merriweather";
   }
 
   @font-face {
-    src: url("/assets/fonts/BerkshireSwash-Regular.ttf") format("truetype");
+    src: url("/moussally_sing_P01/assets/fonts/BerkshireSwash-Regular.ttf") format("truetype");
     font-family: "Berkshire Swash";
   }
 
@@ -98,7 +98,7 @@ h6,
 }
 
 .navbar-brand {
-  font-family: var(--bershire);
+  font-family: var(--merriweather);
 }
 
 .logo_immersive { 
@@ -125,7 +125,26 @@ p {
 /*-------------------------------------------------------------------------------------
 # SECTION HÉROS
 -------------------------------------------------------------------------------------*/
+button {
+  border-color: var(--bleu);
+  color: var(--bleu); 
+}
+
+button:hover {
+  background-color: var(--bleu); 
+}
 
 .iframe {
-  background-color: var(--bleugris);
+  background-color: var(--blanc);
+  border: 2px solid var(--bleugris);
+  height: 700px; 
+  
+}
+
+.ratio-5x9 {
+  aspect-ratio: 5/9;
+}
+
+iframe {
+  width: 100%;
 }
