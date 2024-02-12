@@ -102,7 +102,7 @@ h6,
 }
 
 .logo_immersive { 
-  width: 10%;
+  width: 12%;
   height: auto; 
   margin-right: 1%;
 }
@@ -123,7 +123,12 @@ p {
 }
 
 /*-------------------------------------------------------------------------------------
-# SECTION HÉROS
+ <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <div class="row">
+              </div>
+        </div>
+      </nav>
 -------------------------------------------------------------------------------------*/
 button {
   border-color: var(--bleu);
@@ -146,5 +151,6 @@ button:hover {
 }
 
 iframe {
+  height: 100%; 
   width: 100%;
 }
