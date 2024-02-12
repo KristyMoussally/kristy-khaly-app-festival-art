@@ -19,30 +19,33 @@
 
     <header>
       <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-            <div class="row">
-              <div id="mainNav" class="collapse navbar-collapse">
-                <img class="logo_immersive col-lg-1 col-1"src="./assets/lighthouseImmersive_logo.png"/>
-                <a class="navbar-brand col-lg-5 col-5" href="index.html">IMMERSIVE <br />Disney Animation</a>
-                    <ul class="navbar-nav">
-                      <li class="navbar-item">
-                        <a href="#scrollspyApp" class="nav-link">L'APPLICATION</a>
-                      </li>
-                      <li class="navbar-item">
-                        <a href="#scrollspyFonc" class="nav-link">FONCTIONALITÉS</a>
-                      </li>
-                      <li class="navbar-item">
-                        <a href="#scrollspyPlus" class="nav-link">EN VOIR PLUS</a>
-                      </li>
-                      <li class="navbar-item">
-                        <a href="#scrollspyTem" class="nav-link">TÉMOIGNAGES</a>
-                      </li>
-                      <li class="navbar-item">
-                        <a href="#scrollspyInfo" class="nav-link">INFOLETTRE</a>
-                      </li>
-                    </ul>
-                </div>
-              </div>
+        <div class="container lg-12">
+          <img class="logo_immersive"src="./assets/lighthouseImmersive_logo.png"/>
+          <a class="navbar-brand" href="index.html">IMMERSIVE <br />Disney Animation</a>
+
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mainNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="navbar-item">
+              <a href="#scrollspyApp" class="nav-link">L'APPLICATION</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#scrollspyFonc" class="nav-link">FONCTIONALITÉS</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#scrollspyPlus" class="nav-link">EN VOIR PLUS</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#scrollspyTem" class="nav-link">TÉMOIGNAGES</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#scrollspyInfo" class="nav-link">INFOLETTRE</a>
+            </li>
+          </ul>
+      </div>
         </div>
       </nav>
     </header>
@@ -58,8 +61,8 @@
             </h5>
             <button type="button" class="btn btn-outline-primary btn-lg mt-5 mb-3 col-12 col-lg-6">Télécharger Maintenant</button>
           </div>
-          <div class="iframe shadow-lg col-9 col-lg-4 mt-lg-4 mt-md-3 ms-lg-5 ratio-5x9">
-            <iframe src="./app/index.html"></iframe>
+          <div class="iframe shadow-lg col-9 col-lg-4 mt-lg-4 mt-md-3 ms-lg-5 p-0 ratio-5x9">
+            <iframe src="./app/index.html" class="col-12"></iframe>
           </div>
         </div>
       </div>
