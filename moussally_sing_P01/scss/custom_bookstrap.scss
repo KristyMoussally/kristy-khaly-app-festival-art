@@ -1,0 +1,24 @@
+$light:      #f1f1ff;
+$dark:        #060505;
+$primary:    #090c9b;
+$secondary:  #b4c5e4;
+$info:       #001f3d;
+$success:    #108a80;
+$warning:    #ddc800;
+$danger:     #ea1d00;
+
+
+$white: #ffffff;
+
+$theme-colors: (
+    "light":      #f1f1ff,
+    "dark":       #060505,
+    "primary":    #090c9b,
+    "secondary":  #b4c5e4,
+    "info":       #001f3d,
+    "success":    #009758,
+    "warning":    #ddc800,
+    "danger":     #ea1d00,
+);
+
+@import '../vendors/bootstrap-5.3.2/scss/bootstrap.scss'
