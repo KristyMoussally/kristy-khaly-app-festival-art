@@ -93,12 +93,12 @@ h6,
 -------------------------------------------------------------------------------------*/
 
 body {
-  background-color: var(--blanc);
+  background-color: var(--bs-light);
   font-family: var(--montserrat);
 }
 
 .navbar {
-  background-color: var(--bleu);
+  background-color: var(--bs-primary);
 }
 
 .logo {
@@ -107,21 +107,21 @@ body {
 
 .h2 {
   font-size: 17px;
-  color: white;
+  color: var(--bs-light);
 }
 
 .profile {
   width: 30px;
   height: auto;
-  color: var(--blanc);
+  color: var(--bs-light);
 }
 
 footer,
 .footer {
-  background-color: var(--bleugris);
+  background-color: var(--bs-info);
   padding: 1rem;
   margin-top: 1rem;
-  color: var(--blanc);
+  color: var(--bs-light);
   font-size: small;
 }
 
@@ -131,7 +131,7 @@ main {
 }
 
 .searchbar {
-  background-color: var(--bleupale);
+  background-color: var(--bs-secondary);
   width: 100%;
   height: 80px;
   border-bottom-left-radius: 25px;
@@ -139,7 +139,7 @@ main {
 }
 
 input {
-  color: var(--bleupale);
+  color: var(--bs-secondary);
   border-radius: 40px;
   width: 5px;
   position: relative;
@@ -158,15 +158,33 @@ li {
 .btn-primary {
   border-radius: 40px;
   border-style: solid;
-  border-color: var(--blanc);
-  background-color: var(--bleupale);
+  border-color: var(--bs-light);
+  background-color: var(--bs-secondary);
   border-width: 2px;
 }
 
 .btn-primary:hover {
-  background-color: var(--blanc);
-  color: var(--bleupale);
+  background-color: var(--bs-light);
+  color: var(--bs-secondary);
   border-style: solid;
-  border-color: var(--bleupale);
+  border-color: var(--bs-secondary);
   border-width: 2px;
+}
+
+hr {
+  color: var(--bs-secondary);
+}
+
+.card-text {
+  font-size: small;
+}
+
+.card {
+  border-radius: 10px;
+  border-color: var(--bs-primary);
+  border-width: 4px;
+  background-color: var(--bs-secondary);
+  color: var(--bs-dark);
+  width: 200px;
+  height: 100%;
 }
