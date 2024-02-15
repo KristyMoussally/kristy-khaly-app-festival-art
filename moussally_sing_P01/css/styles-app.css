@@ -180,11 +180,10 @@ hr {
 }
 
 .card {
+  height: 20vh;
   border-radius: 10px;
   border-color: var(--bs-primary);
   border-width: 4px;
   background-color: var(--bs-secondary);
   color: var(--bs-dark);
-  width: 200px;
-  height: 100%;
 }
