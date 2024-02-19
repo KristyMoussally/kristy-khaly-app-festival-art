@@ -95,6 +95,7 @@ h6,
 body {
   background-color: var(--bs-light);
   font-family: var(--montserrat);
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -147,8 +148,11 @@ input {
 }
 
 .btnmenu {
+  position: relative;
+  width: 700px;
+  flex-wrap: nowrap;
   margin-top: 5px;
-  width: 800px;
+  overflow-x: hidden;
 }
 
 li {
@@ -179,11 +183,64 @@ hr {
   font-size: small;
 }
 
-.card {
-  height: 20vh;
+.card{
+  width: 100%;
   border-radius: 10px;
   border-color: var(--bs-primary);
   border-width: 4px;
   background-color: var(--bs-secondary);
   color: var(--bs-dark);
+  transition: box-shadow width;
+  transition-duration: 0.3s;
+}
+
+.profil{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 0 50%;
+}
+
+.profil-2{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+
+.lien-info{
+  color: var(--bs-secondary);
+}
+
+.btn-info{
+  position: relative;
+  top: 10px;
+  color: var(--bs-light);
+  border-style: solid;
+  border-color: var(--bs-info);
+  border-width: 2px;
+}
+
+.btn-info:hover{
+  background-color: var(--bs-light);
+  color: var(--bs-info);
+  border-style: solid;
+  border-color: var(--bs-info);
+  border-width: 2px;
+}
+
+.card:hover {
+  width: 105%;
+  box-shadow: 0 0 5px var(--bs-info) ;
+}
+
+#vedette{
+  width: 140%;
+}
+
+#vedette .card{
+  max-width: 200px;
 }

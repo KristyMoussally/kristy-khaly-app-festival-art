@@ -16,7 +16,7 @@
       <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
         <div class="container-fluid">
           <div class="row justify-content-between">
-            <div class="col-1">
+            <div class="col-2 my-2">
               <button
                 class="navbar-toggler"
                 data-bs-toggle="collapse"
@@ -28,11 +28,13 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
             </div>
-            <div class="col-10 col-sm-10 col-md-10 col-lg-12">
+            <div class="col-9 col-sm-9 col-md-9 col-lg-9">
               <a class="navbar-brand h2" href="index.html"
                 ><img src="../assets/artworks/logo_mickey.png" class="logo" />
                 Immersive Disney Animations</a
               >
+            </div>
+            <div class="col-1 my-2  col-lg-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -47,7 +49,7 @@
                   d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
                 />
               </svg>
-
+            </div>
               <div id="mainNav" class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                   <a href="#" class="nav-link">À propos</a>
@@ -79,8 +81,8 @@
           </div>
         </div>
 
-        <div class="row justify-content-end btnmenu">
-          <div class="col">
+        <div class="row btnmenu">
+          <div class="col my-1">
             <ul>
               <li type="button" href="#" class="btn btn-primary">Toutes</li>
               <li type="button" href="#" class="btn btn-primary">Classiques</li>
@@ -94,9 +96,9 @@
             </ul>
           </div>
         </div>
-        <div class="row">
+        <div class="row" id="vedette">
           <hr />
-          <h4 class="h3">En vedette</h2>
+          <h4 class="h3">En vedette</h4>
           <div class="col-4">
             <div class="card">
               <img
@@ -105,7 +107,7 @@
               />
               <div class="card-body">
                 <h3 class="card-title h5">Le Roi Lion</h3>
-                <p class="card-text">Par Glen-Keane </p>
+                <p class="card-text">Par Glen-Keane <img class="profil" src="../assets/artists/glen-keane.webp"></p>
                 <p class="card-text"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
                   <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
                   <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/> 
@@ -113,17 +115,67 @@
                   <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
                   <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
                 </svg>12:35</p>
-               
+                
+               <div class="mx-2">
+                <p type="button" href="#" class="btn btn-info">Savoir plus</p>
+               </div>
               </div>
             </div>
           </div>
+
           <div class="col-4">
+            <div class="card">
+              <img
+                src="../assets/artworks/encanto.webp"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h3 class="card-title h5">Encanto</h3>
+                <p class="card-text">Par Glen-Keane <img class="profil" src="../assets/artists/glen-keane.webp"></p>
+                <p class="card-text"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                  <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/> 
+                </svg> 21 févirer  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                </svg>12:35</p>
+                
+               <div class="mx-2">
+                <p type="button" href="#" class="btn btn-info">Savoir plus</p>
+               </div>
+              </div>
+            </div>
           </div>
+
           <div class="col-4">
+            <div class="card">
+              <img
+                src="../assets/artworks/tangle.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h3 class="card-title h5">Tangle</h3>
+                <p class="card-text">Par  <img class="profil" src="../assets/artists/3069095-inline-i-4-tangled-the-series-on-disney.jpg"></p>
+                <p class="card-text"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                  <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/> 
+                </svg> 21 févirer  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                </svg>12:35</p>
+                
+               <div class="mx-2">
+                <p type="button" href="#" class="btn btn-info">Savoir plus</p>
+               </div>
+              </div>
+            </div>
           </div>
+
         </div>
+<hr/>
       </div>
     </main>
+
 
     <footer class="footer fixed-bottom">
       <div class="container-fluid">
