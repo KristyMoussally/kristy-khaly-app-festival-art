@@ -100,6 +100,7 @@ body {
 
 .navbar {
   background-color: var(--bs-primary);
+  padding: 10px;
 }
 
 .logo {
@@ -128,7 +129,6 @@ footer,
 
 main {
   width: 100%;
-  overflow: hidden;
 }
 
 .searchbar {
@@ -140,23 +140,31 @@ main {
 }
 
 input {
-  color: var(--bs-secondary);
-  border-radius: 40px;
   width: 5px;
   position: relative;
   top: 20px;
 }
 
-.btnmenu {
-  position: relative;
-  width: 700px;
-  flex-wrap: nowrap;
-  margin-top: 5px;
+.form-control {
+  color: var(--bs-secondary);
+  border-radius: 40px;
+}
+
+.menu-principal {
+  min-width: 100px;
+}
+
+.sousmenu {
+  min-width: 100%;
   overflow-x: hidden;
 }
 
 li {
+  min-width: 125px;
+  height: 100%;
   list-style-type: none;
+  align-items: center;
+  text-wrap: nowrap;
 }
 
 .btn-primary {
@@ -183,7 +191,7 @@ hr {
   font-size: small;
 }
 
-.card{
+.card {
   width: 100%;
   border-radius: 10px;
   border-color: var(--bs-primary);
@@ -194,7 +202,7 @@ hr {
   transition-duration: 0.3s;
 }
 
-.profil{
+.profil {
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -202,7 +210,7 @@ hr {
   object-position: 0 50%;
 }
 
-.profil-2{
+.profil-2 {
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -210,12 +218,11 @@ hr {
   object-position: 50% 0%;
 }
 
-
-.lien-info{
+.lien-info {
   color: var(--bs-secondary);
 }
 
-.btn-info{
+.btn-info {
   position: relative;
   top: 10px;
   color: var(--bs-light);
@@ -224,7 +231,7 @@ hr {
   border-width: 2px;
 }
 
-.btn-info:hover{
+.btn-info:hover {
   background-color: var(--bs-light);
   color: var(--bs-info);
   border-style: solid;
@@ -233,14 +240,14 @@ hr {
 }
 
 .card:hover {
-  width: 105%;
-  box-shadow: 0 0 5px var(--bs-info) ;
+  width: 102%;
+  box-shadow: 0 0 5px var(--bs-info);
 }
 
-#vedette{
+#vedette {
   width: 140%;
 }
 
-#vedette .card{
+.card {
   max-width: 200px;
 }
