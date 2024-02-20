@@ -54,7 +54,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: var(--bershire);
+  font-family: var(--merriweather);
   font-size: 45px;
   font-weight: lighter;
   color: var(--noir);
@@ -123,12 +123,7 @@ p {
 }
 
 /*-------------------------------------------------------------------------------------
- <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-            <div class="row">
-              </div>
-        </div>
-      </nav>
+# SECTION HÉRO
 -------------------------------------------------------------------------------------*/
 button {
   border-color: var(--bleu);
@@ -153,4 +148,20 @@ button:hover {
 iframe {
   height: 100%; 
   width: 100%;
+}
+
+/*-------------------------------------------------------------------------------------
+# SECTION FONCTIONALITÉS
+-------------------------------------------------------------------------------------*/
+
+svg {
+  height: 100%; 
+  width: 100%; 
+}
+
+.separation {
+  background-color: var(--bleufonce);
+  width: 100%;
+  height: 5px; 
+  border-radius: 5px;
 }
