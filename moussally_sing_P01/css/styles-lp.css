@@ -200,4 +200,24 @@ iframe {
   height:30px; 
 }
 
+/*-------------------------------------------------------------------------------------
+# SECTION INFOLETTRE
+-------------------------------------------------------------------------------------*/
 
+.section-infolettre {
+  background-color: var(--bs-primary);
+}
+
+.infolettre{
+  background-color: var(--bs-white);
+  text-align: center;
+  border-radius: 10px;
+}
+
+@include media-breakpoint-up(md) {
+  .infolettre {
+    background-color: var(--bs-white);
+    border-radius: 10px;
+    text-align: left; 
+  }
+}
