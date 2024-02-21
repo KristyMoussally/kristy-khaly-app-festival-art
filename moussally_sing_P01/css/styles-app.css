@@ -112,6 +112,10 @@ body {
   color: var(--bs-light);
 }
 
+.h4 {
+  color: var(--bs-secondary);
+}
+
 .profile {
   width: 30px;
   height: auto;
@@ -191,7 +195,7 @@ hr {
   font-size: small;
 }
 
-.card {
+#vedette .card {
   width: 100%;
   border-radius: 10px;
   border-color: var(--bs-primary);
@@ -240,7 +244,6 @@ hr {
 }
 
 .card:hover {
-  width: 102%;
   box-shadow: 0 0 5px var(--bs-info);
 }
 
@@ -248,6 +251,16 @@ hr {
   width: 140%;
 }
 
-.card {
+#vedette .card {
   max-width: 200px;
+}
+
+#autre .card {
+  border-radius: 10px;
+  border-color: var(--bs-primary);
+  border-width: 4px;
+  background-color: var(--bs-secondary);
+  color: var(--bs-dark);
+  transition: box-shadow width;
+  transition-duration: 0.3s;
 }
