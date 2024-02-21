@@ -159,12 +159,11 @@ input {
 }
 
 .sousmenu {
-  min-width: 100%;
   overflow-x: hidden;
 }
 
 li {
-  min-width: 125px;
+  min-width: 180px;
   height: 100%;
   list-style-type: none;
   align-items: center;
@@ -249,6 +248,11 @@ hr {
 
 #vedette {
   width: 140%;
+}
+
+#vedette .card-img-top {
+  height: 20vh;
+  object-fit: cover;
 }
 
 #vedette .card {
