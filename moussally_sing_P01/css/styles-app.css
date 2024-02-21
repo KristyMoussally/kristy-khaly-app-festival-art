@@ -163,7 +163,7 @@ input {
 }
 
 li {
-  min-width: 180px;
+  min-width: 230px;
   height: 100%;
   list-style-type: none;
   align-items: center;
@@ -171,6 +171,7 @@ li {
 }
 
 .btn-primary {
+  width: 100%;
   border-radius: 40px;
   border-style: solid;
   border-color: var(--bs-light);
@@ -195,6 +196,7 @@ hr {
 }
 
 #vedette .card {
+  max-width: 200px;
   width: 100%;
   border-radius: 10px;
   border-color: var(--bs-primary);
@@ -203,6 +205,7 @@ hr {
   color: var(--bs-dark);
   transition: box-shadow width;
   transition-duration: 0.3s;
+  width: 50vw;
 }
 
 .profil {
@@ -252,11 +255,8 @@ hr {
 
 #vedette .card-img-top {
   height: 20vh;
-  object-fit: cover;
-}
 
-#vedette .card {
-  max-width: 200px;
+  object-fit: cover;
 }
 
 #autre .card {
