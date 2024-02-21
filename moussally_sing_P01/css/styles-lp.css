@@ -206,18 +206,38 @@ iframe {
 
 .section-infolettre {
   background-color: var(--bs-primary);
+  background-image: url("../assets/jayme_mccolgan_unsplash.jpg");
+  background-size: cover;
+  background-position: 10% 50%;
 }
 
 .infolettre {
-  background-color: var(--bs-white);
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   border-radius: 10px;
 }
 
-@include media-breakpoint-up(md) {
+@media (min-width: 991.98px) {
   .infolettre {
-    background-color: var(--bs-white);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     text-align: left; 
+    margin-left: 50%;
   }
+
+  form {
+    min-width: 300%;
+    margin-left: -100%; 
+  }
+}
+
+form {
+  min-width: 200%;
+  margin-left: -50%; 
+}
+
+.bi-envelope-heart-fill {
+  position: absolute;
+  transform: translateY(5%)
+
 }
