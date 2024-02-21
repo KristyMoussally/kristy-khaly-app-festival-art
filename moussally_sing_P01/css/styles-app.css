@@ -133,6 +133,7 @@ footer,
 
 main {
   width: 100%;
+  overflow-x: hidden;
 }
 
 .searchbar {
@@ -156,10 +157,6 @@ input {
 
 .menu-principal {
   min-width: 100px;
-}
-
-.sousmenu {
-  overflow-x: hidden;
 }
 
 li {
@@ -191,13 +188,12 @@ hr {
   color: var(--bs-secondary);
 }
 
-.card-text {
+#vedette .card-text {
   font-size: small;
 }
 
 #vedette .card {
   max-width: 200px;
-  width: 100%;
   border-radius: 10px;
   border-color: var(--bs-primary);
   border-width: 4px;
@@ -205,7 +201,6 @@ hr {
   color: var(--bs-dark);
   transition: box-shadow width;
   transition-duration: 0.3s;
-  width: 50vw;
 }
 
 .profil {
@@ -255,7 +250,6 @@ hr {
 
 #vedette .card-img-top {
   height: 20vh;
-
   object-fit: cover;
 }
 
@@ -267,4 +261,10 @@ hr {
   color: var(--bs-dark);
   transition: box-shadow width;
   transition-duration: 0.3s;
+}
+
+#autre .card-img-top {
+  height: 20vh;
+  object-fit: cover;
+  object-position: 0% 50%;
 }
