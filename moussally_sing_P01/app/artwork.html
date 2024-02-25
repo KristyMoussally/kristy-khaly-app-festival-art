@@ -16,7 +16,7 @@
       <nav class="navbar navbar-dark navbar-expand-lg fixed-top nav-artwork">
         <div class="container">
           <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col">
               <a href="index.html">
                 <button class="navbar-toggler btn-nav">
                   <svg
@@ -35,7 +35,7 @@
                 </button>
               </a>
             </div>
-            <div class="col-6 btn-nav my-1">
+            <div class="col btn-nav my-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
@@ -117,7 +117,50 @@
                   avril 1954 à Philadelphie en Pennsylvanie. Il travaille pour
                   le studio Walt Disney Pictures.
                 </p>
-                <p type="button" href="#" class="btn btn-info">Savoir plus</p>
+                <button
+                  type="button"
+                  class="btn btn-info mb-3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProfileArtiste"
+                >
+                  En savoir plus
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="modal fade"
+            id="modalProfileArtiste"
+            tabindex="-1"
+            aria-labelledby="modalProfileArtisteLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="modalProfileArtisteLabel">
+                    Glen-Keane
+                  </h1>
+                </div>
+                <div class="modal-body">
+                  Glen Keane est un animateur, réalisateur et scénariste
+                  américain né le 13 avril 1954 à Philadelphie en Pennsylvanie.
+                  Il travaille principalement pour le studio Walt Disney
+                  Pictures où il crée et anime des personnages comme la Bête,
+                  Ariel, Tarzan ou encore Raiponce. Ayant travaillé 38 ans pour
+                  Walt Disney Animation Studios (de 1974 à 2012), il démissionne
+                  pour trouver de nouvelles voies d’exploration.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-info mb-4"
+                    data-bs-dismiss="modal"
+                  >
+                    Fermer
+                  </button>
+                </div>
               </div>
             </div>
           </div>

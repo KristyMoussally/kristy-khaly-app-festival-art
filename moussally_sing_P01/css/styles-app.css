@@ -73,6 +73,11 @@ li {
   color: var(--bs-primary);
 }
 
+.bi-balloon-heart {
+  position: relative;
+  right: -250px;
+}
+
 /*-------------------------------------------------------------------------------------
 # STYLES GÉNÉRAUX
 -------------------------------------------------------------------------------------*/
@@ -249,6 +254,23 @@ main {
 /*-------------------------------------------------------------------------------------
 # FENETRE MODALE
 -------------------------------------------------------------------------------------*/
+
+#section .modal-content {
+  font-family: var(--montserrat);
+  background-color: var(--bs-secondary);
+  color: var(--bs-dark);
+  border-radius: 10px;
+  border-color: var(--bs-primary);
+  border-style: solid;
+  border-width: 3px;
+}
+
+#section .modal-header {
+  color: var(--bs-info);
+  background-color: var(--bs-light);
+  width: 100%;
+  border-bottom: 2px var(--bs-primary) solid;
+}
 
 /*-------------------------------------------------------------------------------------
 # PIED DE PAGE
