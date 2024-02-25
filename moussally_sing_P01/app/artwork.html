@@ -81,7 +81,7 @@
                   d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
                 />
               </svg>
-              24 févirer
+              24 - 29 févirer 2024
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -123,7 +123,7 @@
           </div>
 
           <div class="col-12 my-4">
-            <div class="card">
+            <div class="card info-oeuvre">
               <p class="card-header">À propos de l'oeuvre</p>
               <div class="card-body">
                 <p class="card-text">
@@ -133,7 +133,114 @@
             </div>
           </div>
 
-          <div class="col-12"></div>
+          <div class="col-12 my-2">
+            <div class="accordion" id="accordion_parent">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="head">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse_form"
+                    aria-expanded="true"
+                    aria-controls="collapse_form"
+                  >
+                    Acheter un billet
+                  </button>
+                </h2>
+
+                <div
+                  id="collapse_form"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="head"
+                  data-bs-parent="#accordion_parent"
+                >
+                  <div class="accordion-body">
+                    <form>
+                      <div class="col-md-4 mt-3">
+                        <label for="validationNom" class="form-label"
+                          >Nom :</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationNom"
+                          placeholder="Insérer votre nom"
+                          required
+                        />
+                      </div>
+                      <br />
+                      <div class="col-md-4 mt-3">
+                        <label for="validationPrenom" class="form-label"
+                          >Prénom :</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationPrenom"
+                          placeholder="Insérer votre prénom"
+                          required
+                        />
+                      </div>
+                      <br />
+                      <div class="col-md-4 mt-3">
+                        <label for="validationEmail" class="form-label"
+                          >Courriel :</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="validationEmail"
+                          placeholder="Insérer votre courriel"
+                          required
+                        />
+                      </div>
+                      <br />
+                      <div class="row">
+                        <div class="col-md-2 my-3">
+                          <label for="validationDate" class="form-label"
+                            >Date de visite :</label
+                          >
+                          <input
+                            type="date"
+                            class="form-control"
+                            id="validationDate"
+                            min="2024-02-24"
+                            max="2024-2-29"
+                            required
+                          />
+                        </div>
+                        <br />
+                        <br />
+                        <div class="col-md-2 my-3">
+                          <select class="form-select" required>
+                            <option selected value="13:25">13h25</option>
+                            <option value="15:25">15h25</option>
+                            <option value="17:25">17h25</option>
+                            <option value="19:25">19h25</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3 mt-2">
+                        <label for="validationPassword" class="form-label"
+                          >Password</label
+                        >
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="validationPassword"
+                          required
+                        />
+                      </div>
+                      <button type="submit" class="btn btn-info my-3">
+                        Submit
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

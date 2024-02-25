@@ -162,7 +162,7 @@ main {
   border-width: 2px;
 }
 
-.card:hover {
+#vedette .card:hover {
   box-shadow: 0 0 5px var(--bs-info);
 }
 
@@ -193,6 +193,10 @@ main {
   height: 20vh;
   object-fit: cover;
   object-position: 0% 50%;
+}
+
+#autre .card:hover {
+  box-shadow: 0 0 5px var(--bs-info);
 }
 
 /*-------------------------------------------------------------------------------------
@@ -227,6 +231,24 @@ main {
   width: 100%;
   background-color: var(--bs-light);
 }
+
+#section .accordion-body {
+  color: var(--bs-dark);
+  font-family: var(--montserrat);
+}
+
+#section .accordion-button {
+  color: var(--bs-dark);
+  font-family: var(--montserrat);
+}
+
+#section .accordion-button:hover {
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
+}
+/*-------------------------------------------------------------------------------------
+# FENETRE MODALE
+-------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------------------------
 # PIED DE PAGE
