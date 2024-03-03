@@ -83,15 +83,15 @@
         </div>
 
 
-          <div class="swiper">
-            <ul class="swiper-wrapper row flex-row flex-nowrap my-1">
-              <li class="col swiper-slide"><a class="btn btn-primary" href="#">Toutes</a></li>
-              <li class="col swiper-slide"><a class="btn btn-primary" href="#">Classiques</a></li>
-              <li class="col swiper-slide"><a class="btn btn-primary" href="#">Récentes</a></li>
-              <li class="col swiper-slide"><a class="btn btn-primary" href="#">Bande sonore</a></li>
-              <li class="col swiper-slide"><a class="btn btn-primary" href="#">Département artistique</a></li>
-            </ul>
-          </div>
+          <section class="swiper swiper-filters">
+            <div class="swiper-wrapper row flex-row flex-nowrap my-1">
+              <div class="col swiper-slide"><a class="btn btn-primary btn-list" href="#">Toutes</a></div>
+              <div class="col swiper-slide"><a class="btn btn-primary btn-list" href="#">Classiques</a></div>
+              <div class="col swiper-slide"><a class="btn btn-primary btn-list" href="#">Récentes</a></div>
+              <div class="col swiper-slide"><a class="btn btn-primary btn-list" href="#">Bande sonore</a></div>
+              <div class="col swiper-slide"><a class="btn btn-primary btn-list" href="#">Département artistique</a></div>
+            </div>
+          </section>
 
 
 
@@ -99,7 +99,9 @@
         <div class="row justify-content-center" id="vedette">
           <hr />
           <h4 class="h3">En vedette</h4>
-          <div class="col-4">
+          <div class="swiper swiper-featured-artworks">
+            <div class="swiper-wrapper row flex-row flex-nowrap my-1">
+          <div class="col-4  ms-4 swiper-slide">
             <div class="card" >
               <a href="artwork.html" >
               <img
@@ -125,7 +127,8 @@
             </div>
           </div>
 
-          <div class="col-4">
+
+          <div class="col-4  swiper-slide">
             <div class="card" >
               <a href="#">
               <img
@@ -133,7 +136,7 @@
                 class="card-img-top"
               />
               <div class="card-body">
-                <h3 class="card-title h5">Tangle</h3>
+                <h3 class="card-title h5">Raiponce</h3>
                 <p class="card-text">Par Claire Keane <img class="profil" src="../assets/artists/3069095-inline-i-4-tangled-the-series-on-disney.jpg"></p>
                 <p class="card-text"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
                   <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
@@ -151,7 +154,7 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-4 swiper-slide">
             <div class="card">
               <a href="#">
               <img
@@ -176,6 +179,86 @@
               </a>
             </div>
           </div>
+          <div class="col-4 swiper-slide">
+            <div class="card" >
+              <a href="artwork.html" >
+              <img
+                src="../assets/artworks/lion king.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h3 class="card-title h5">Le Roi Lion</h3>
+                <p class="card-text">Par Glen-Keane <img class="profil" src="../assets/artists/glen-keane.webp"></p>
+                <p class="card-text"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                  <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/> 
+                </svg> 21 févirer  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                </svg>12:35</p>
+                
+               <div class="mx-2">
+                <a type="button" href="artwork.html" class="btn btn-info">Savoir plus</a>
+               </div>
+              </div>
+            </a>
+            </div>
+          </div>
+
+
+          <div class="col-4  swiper-slide">
+            <div class="card" >
+              <a href="#">
+              <img
+                src="../assets/artworks/tangle.jpg"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h3 class="card-title h5">Raiponce</h3>
+                <p class="card-text">Par Claire Keane <img class="profil" src="../assets/artists/3069095-inline-i-4-tangled-the-series-on-disney.jpg"></p>
+                <p class="card-text"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                  <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/> 
+                </svg> 24 févirer  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                </svg>11:00</p>
+                
+               <div class="mx-2">
+                <a type="button" href="#" class="btn btn-info">Savoir plus</a>
+               </div>
+              </div>
+            </a>
+            </div>
+          </div>
+
+          <div class="col-4 me-4 swiper-slide">
+            <div class="card">
+              <a href="#">
+              <img
+                src="../assets/artworks/encanto.webp"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h3 class="card-title h5">Encanto</h3>
+                <p class="card-text">Par Matthias <img class="profil-2" src="../assets/artists/MatthiasLechner.webp"></p>
+                <p class="card-text"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                  <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/> 
+                </svg> 24 févirer  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                </svg>15:25</p>
+                
+               <div class="mx-2">
+                <a type="button" href="#" class="btn btn-info">Savoir plus</a>
+               </div>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
 
 
 
@@ -281,5 +364,5 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"
   ></script>
-  <script src="../js/app_script.js"></script>
+  <script src="../js/script.js"></script>
 </html>

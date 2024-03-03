@@ -40,7 +40,8 @@ input {
   min-width: 100px;
 }
 
-li {
+li,
+.btn-list {
   min-width: 230px;
   height: 100%;
   list-style-type: none;
@@ -94,7 +95,6 @@ li {
 body {
   background-color: var(--bs-light);
   font-family: var(--montserrat);
-  overflow-x: hidden;
 }
 
 hr {
@@ -112,7 +112,6 @@ a {
 
 main {
   width: 100%;
-  overflow-x: hidden;
 }
 
 #vedette .card-text {
@@ -172,7 +171,7 @@ main {
 }
 
 #vedette {
-  width: 140%;
+  overflow: hidden;
 }
 
 #vedette .card-img-top {
