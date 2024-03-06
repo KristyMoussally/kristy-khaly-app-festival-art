@@ -8,7 +8,8 @@
 }
 
 .logo {
-  width: 70px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .profile-compte {
@@ -84,8 +85,8 @@ li,
 -------------------------------------------------------------------------------------*/
 
 .h2 {
-  font-size: 17px;
   color: var(--bs-light);
+  width: 100%;
 }
 
 .h4 {
@@ -112,6 +113,12 @@ a {
 
 main {
   width: 100%;
+}
+
+.principal {
+  width: 100%;
+  position: relative;
+  top: 70px;
 }
 
 #vedette .card-text {
