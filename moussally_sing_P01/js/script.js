@@ -1,6 +1,6 @@
 const swiperButtonsList = new Swiper(".swiper-filters", {
   grabCursor: true,
-  slidesPerView: 1.6,
+  slidesPerView: 1.7,
   spaceBetween: 1,
 });
 
