@@ -5,6 +5,7 @@
 .navbar {
   background-color: var(--bs-primary);
   padding: 10px;
+  width: 100%;
 }
 
 .logo {
@@ -43,7 +44,6 @@ input {
 
 li,
 .btn-list {
-  min-width: 230px;
   height: 100%;
   list-style-type: none;
   align-items: center;
@@ -51,7 +51,6 @@ li,
 }
 
 .btn-primary {
-  width: 100%;
   border-radius: 40px;
   border-style: solid;
   border-color: var(--bs-light);
@@ -76,13 +75,27 @@ li,
 }
 
 .bi-balloon-heart {
+  /*
   position: relative;
-  right: -250px;
+  right: -240px;*/
+  fill: var(--bs-primary);
+}
+
+.bi-balloon-heart:hover {
+  fill: var(--bs-success);
+}
+
+.active {
+  fill: var(--bs-success);
 }
 
 /*-------------------------------------------------------------------------------------
 # STYLES GÉNÉRAUX
 -------------------------------------------------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
 
 .h2 {
   color: var(--bs-light);
