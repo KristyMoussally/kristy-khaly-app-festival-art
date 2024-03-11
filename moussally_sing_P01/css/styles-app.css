@@ -72,17 +72,27 @@ li,
 
 .btn-nav {
   color: var(--bs-primary);
+  transition: color;
+  transition-duration: 0.3s ;
 }
 
+
+.btn-nav:hover {
+  transition-duration: 0.3s ;
+  color: var(--bs-secondary);
+}
 .bi-balloon-heart {
   /*
   position: relative;
   right: -240px;*/
   fill: var(--bs-primary);
+  transition: fill;
+  transition-duration: 0.3s;
 }
 
 .bi-balloon-heart:hover {
-  fill: var(--bs-success);
+  fill: var(--bs-secondary);
+  transition-duration: 0.3s;
 }
 
 .active {
