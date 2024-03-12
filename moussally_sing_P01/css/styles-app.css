@@ -9,8 +9,7 @@
 }
 
 .logo {
-  width: 100%;
-  max-width: 500px;
+  max-width: 50%;
 }
 
 .profile-compte {
@@ -27,12 +26,6 @@
   border-bottom-right-radius: 25px;
 }
 
-input {
-  width: 5px;
-  position: relative;
-  top: 20px;
-}
-
 .form-control {
   color: var(--bs-secondary);
   border-radius: 40px;
@@ -47,6 +40,7 @@ li,
   height: 100%;
   list-style-type: none;
   align-items: center;
+  white-space: nowrap;
   text-wrap: nowrap;
 }
 
@@ -73,30 +67,26 @@ li,
 .btn-nav {
   color: var(--bs-primary);
   transition: color;
-  transition-duration: 0.3s ;
+  transition-duration: 0.3s;
 }
 
-
-.btn-nav:hover {
-  transition-duration: 0.3s ;
-  color: var(--bs-secondary);
-}
 .bi-balloon-heart {
-  /*
-  position: relative;
-  right: -240px;*/
   fill: var(--bs-primary);
   transition: fill;
   transition-duration: 0.3s;
 }
 
 .bi-balloon-heart:hover {
-  fill: var(--bs-secondary);
+  fill: var(--bs-success);
   transition-duration: 0.3s;
 }
 
 .active {
   fill: var(--bs-success);
+}
+
+#logo-invisible {
+  opacity: 0;
 }
 
 /*-------------------------------------------------------------------------------------
@@ -179,16 +169,15 @@ main {
   color: var(--bs-secondary);
 }
 
-.btn-info {
-  position: relative;
-  top: 10px;
+#vedette .btn-info {
+  width: 100%;
   color: var(--bs-light);
   border-style: solid;
   border-color: var(--bs-info);
   border-width: 2px;
 }
 
-.btn-info:hover {
+#vedette .btn-info:hover {
   background-color: var(--bs-light);
   color: var(--bs-info);
   border-style: solid;
@@ -231,6 +220,23 @@ main {
 
 #autre .card:hover {
   box-shadow: 0 0 5px var(--bs-info);
+}
+
+#autre .btn-info {
+  margin-left: 25%;
+  width: 50%;
+  color: var(--bs-light);
+  border-style: solid;
+  border-color: var(--bs-info);
+  border-width: 2px;
+}
+
+#autre .btn-info:hover {
+  background-color: var(--bs-light);
+  color: var(--bs-info);
+  border-style: solid;
+  border-color: var(--bs-info);
+  border-width: 2px;
 }
 
 /*-------------------------------------------------------------------------------------
@@ -299,6 +305,22 @@ main {
   background-color: var(--bs-light);
   width: 100%;
   border-bottom: 2px var(--bs-primary) solid;
+}
+
+#section .btn-info {
+  margin-right: 40%;
+  color: var(--bs-light);
+  border-style: solid;
+  border-color: var(--bs-info);
+  border-width: 2px;
+}
+
+#section .btn-info:hover {
+  background-color: var(--bs-light);
+  color: var(--bs-info);
+  border-style: solid;
+  border-color: var(--bs-info);
+  border-width: 2px;
 }
 
 /*-------------------------------------------------------------------------------------
