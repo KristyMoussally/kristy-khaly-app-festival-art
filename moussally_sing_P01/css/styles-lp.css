@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+}
+
 
 h1,
 .h1 {
@@ -60,14 +64,14 @@ h6,
   background-color: var(--bs-primary);
 }
 
-.navbar-brand {
-  font-family: var(--montserrat);
+.logo_immersive { 
+  height: 70px;
+  padding-right: 400px; 
+  padding-left: 30px;
 }
 
-.logo_immersive { 
-  width: 12%;
-  height: auto; 
-  margin-right: 1%;
+.nav-link {
+  padding-top: 10px;
 }
 
 /*-------------------------------------------------------------------------------------

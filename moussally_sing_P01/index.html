@@ -15,11 +15,11 @@
 <body>
 
   <header>
-
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="navbar-scrollspy">
-      <div class="container lg-12">
-        <img class="logo_immersive" src="./assets/lighthouseImmersive_logo.png" />
-        <a class="navbar-brand" href="index.html">IMMERSIVE <br />Disney Animation</a>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="scrollspy">
+      <div class="container col-12">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo_immersive" src="./assets/lighthouseImmersive_logo.png"/>
+        </a>
 
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
           aria-expanded="false" aria-label="Affichage/masquage de la navigation">
@@ -45,16 +45,14 @@
             </li>
           </ul>
         </div>
-      </div>
     </nav>
 
   </header>
 
+  <div data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-root-margin="0px 0px -40%"
+  data-bs-smooth-scroll="true" tabindex="0">
   <main>
     <section class="section-hero">
-
-      <div data-bs-spy="scroll" data-bs-target="#navbar-scroll" data-bs-root-margin="0px 0px -40%"
-        data-bs-smooth-scroll="true" tabindex="0">
       <div class="container">
           <div class="row justify-content-center">
             <div class="col-12 col-lg-7">
@@ -273,7 +271,6 @@
             <div class="separator02 mt-5"></div>
           </div>
         </div>
-    </div>
 
     <div class="separator03 col-12"></div>
 
@@ -353,9 +350,10 @@
       </section>
   </main>
 
+  </div>
 
   <footer>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row text-center p-5 mt-5">
         <div class="col-lg-4 col-md-12 text-center text-lg-start">
           <p>Kristy Moussally</p>
