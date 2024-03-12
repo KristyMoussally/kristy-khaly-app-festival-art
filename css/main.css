@@ -1,0 +1,90 @@
+/*-------------------------------------------------------------------------------------
+# FONT_FACE
+-------------------------------------------------------------------------------------*/
+@font-face {
+  src: url("../assets/fonts/Merriweather-Regular.ttf") format("truetype");
+  font-family: "Merriweather";
+}
+
+@font-face {
+  src: url("../assets/fonts/BerkshireSwash-Regular.ttf") format("truetype");
+  font-family: "Berkshire Swash";
+}
+
+@font-face {
+  src: url(../assets/fonts/Montserrat-Medium.ttf) format(truetype);
+  font-family: "Montserrat";
+}
+
+/*-------------------------------------------------------------------------------------
+# PALETTE DE COULEURS
+-------------------------------------------------------------------------------------*/
+:root {
+  --bs-primary: #090c9b;
+  --bs-secondary: #b4c5e4;
+  --bleufonce: #003160;
+  --bs-info: #001f3d;
+  --bs-light: #f1f1ff;
+  --bs-dark: #060505;
+}
+/*-------------------------------------------------------------------------------------
+# FONTS
+-------------------------------------------------------------------------------------*/
+
+:root {
+  --merriweather: "Merriweather";
+  --bershire: "Berkshire Swash";
+  --montserrat: "Montserrat";
+}
+/*-------------------------------------------------------------------------------------
+# STYLES GÉNÉRAUX
+-------------------------------------------------------------------------------------*/
+
+h1,
+.h1 {
+  font-family: var(--bershire);
+  font-size: 50px;
+  font-weight: 900;
+  color: var(--bs-info);
+}
+
+h2,
+.h2 {
+  font-family: var(--bershire);
+  font-size: 45px;
+  font-weight: lighter;
+  color: var(--bs-dark);
+}
+
+h3,
+.h3 {
+  font-family: var(--merriweather);
+  font-size: 35px;
+  color: var(--bs-secondary);
+}
+
+h4,
+.h4 {
+  font-family: var(--merriweather);
+  font-size: 25px;
+  color: var(--bs-light);
+}
+
+h5,
+.h5 {
+  font-family: var(--merriweather);
+  font-size: 20px;
+  color: var(--bleufonce);
+}
+
+h6,
+.h6 {
+  font-family: var(--merriweather);
+  font-size: 17px;
+  font-weight: bolder;
+  color: var(--bs-info);
+}
+
+/*-------------------------------------------------------------------------------------
+# SECTION HÉRO
+-------------------------------------------------------------------------------------*/
