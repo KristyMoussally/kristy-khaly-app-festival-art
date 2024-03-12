@@ -2,17 +2,17 @@
 # FONT_FACE
 -------------------------------------------------------------------------------------*/
 @font-face {
-  src: url("assets/fonts/Merriweather-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/Merriweather-Regular.ttf") format("truetype");
   font-family: "Merriweather";
 }
 
 @font-face {
-  src: url("/assets/fonts/BerkshireSwash-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/BerkshireSwash-Regular.ttf") format("truetype");
   font-family: "Berkshire Swash";
 }
 
 @font-face {
-  src: url(/assets/fonts/Montserrat-Regular.ttf) format(truetype);
+  src: url(../assets/fonts/Montserrat-Medium.ttf) format(truetype);
   font-family: "Montserrat";
 }
 
