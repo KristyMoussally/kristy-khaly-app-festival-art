@@ -5,11 +5,10 @@
 .navbar {
   background-color: var(--bs-primary);
   padding: 10px;
-  width: 100%;
 }
 
 .logo {
-  max-width: 50%;
+  width: 50%;
 }
 
 .profile-compte {
