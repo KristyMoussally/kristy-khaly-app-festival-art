@@ -65,7 +65,7 @@ h6,
 }
 
 .navbar.active {
-  color: var(--bs-dark);
+  color: var(--bs-secondary) !important;
 }
 
 .logo_immersive { 
