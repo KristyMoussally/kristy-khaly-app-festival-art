@@ -64,6 +64,10 @@ h6,
   background-color: var(--bs-primary);
 }
 
+.navbar.active {
+  color: var(--bs-dark);
+}
+
 .logo_immersive { 
   height: 70px;
   padding-right: 400px; 
@@ -170,9 +174,6 @@ iframe {
   margin-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 50px;
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,12 +181,28 @@ iframe {
 
 .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height:50%;
   object-fit: cover;
+  border-radius: 15px;
+  border: 5px solid var(--bs-dark);
 }
 
 @media (min-width: 1200px) {
+
+  .swiper-slide img {
+    display: block;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid var(--bs-dark);
+  }
+
+  .swiper-slide:not(.swiper-slide-active) {
+    opacity: 0.5;
+    transition: opacity 0.5 ease;
+  }
 
 }
 
